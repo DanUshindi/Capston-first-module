@@ -392,11 +392,15 @@ z-index: -5;
 .main-program-section ul {
   display: flex;
   flex-direction:row;
+  padding: 0 1rem;
+  gap:1rem;
 }
   
 .main-program-section ul li {
   display: flex;
+  flex:1;
   flex-direction:column;
-
+  background:rgba(255, 255, 255, 0.15);
+  margin:1rem auto;
 }
 }
