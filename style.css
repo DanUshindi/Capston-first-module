@@ -94,7 +94,7 @@ background: whitesmoke;
 .presentation-title {
   padding: 2rem 0;
   font-size: 58px;
-  color: rgb(255 117 78 / 50%);
+  color: rgba(244,144,116, 0.5);
   background: url(./assets/branches-2178684__340.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -327,6 +327,10 @@ z-index: -5;
   text-decoration:none;
   list-style: none;
   padding: 12px 8px; 
+}
+
+.partners-sections {
+  display: block;
 }
 
 @media(min-width:768px) {
