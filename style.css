@@ -94,7 +94,7 @@ background: whitesmoke;
 .presentation-title {
   padding: 2rem 0;
   font-size: 58px;
-  color: rgba(244,144,116, 0.5);
+  color: rgb(236,82,66,0.5);
   background: url(./assets/branches-2178684__340.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ background: whitesmoke;
 
 .main-program-title {
   padding: 10px 10px;
-  border-bottom: 2px solid coral;
+  border-bottom: 2px solid rgb(236,82,66);
 }
 
 a {
@@ -159,7 +159,7 @@ a {
 .program-item-title {
   margin: 0.2rem auto;
   font-size: 27px;
-  color: coral;
+  color: rgb(236,82,66);
 }
 
 .footer-main-program {
@@ -172,7 +172,7 @@ a {
 
 .speeeker-behind {
   position: absolute;
-  background: rgb(244,144,116);
+  background: rgb(236,82,66);
   width: 3em;
   height: 3em;
   top: -0.5em;
@@ -231,7 +231,7 @@ a {
 
 .speeker-behind { 
 position: relative;
-background: rgb(244,144,116);
+background: rgb(236,82,66);
 width: 3em;
 height: 3em;
 top: -0.5em;
@@ -252,7 +252,7 @@ z-index: -5;
 }
 
 .speekers-section-title {
-  padding: 15px 10px;
+  padding: 2em 1em;
   align-self: center;
 }
 
@@ -264,7 +264,7 @@ z-index: -5;
 
 .titre {
   font-size: 15px;
-  color:coral;
+  color: rgb(236,82,66);
   text-decoration:underline;
   font-family:"Fredoka", sans-serif;
 }
@@ -278,7 +278,7 @@ z-index: -5;
 }
 
 .btn {
-  border: 1px solid coral;
+  border: 1px solid rgb(236,82,66);
   background: transparent;
   width:70%;
   padding:1rem 1rem;
@@ -324,15 +324,28 @@ z-index: -5;
 .nav ul li {
   text-decoration:none;
   list-style: none;
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 .partners-sections {
   display: block;
 }
 
+.partners-names {
+  width: 40px;
+  height: 40px;
+ }
+
+ .footer-pages {
+   display: none;
+ }
+
 @media(min-width:768px) {
   .moile-menu-hamburger {
+    display: none;
+  }
+
+  .partners-sections {
     display: none;
   }
 
@@ -344,12 +357,16 @@ z-index: -5;
     top: 0;
   }
 
+  a {
+    font-size:15px;
+  }
+
   .logo-uncc {
     display:block;
-    color:coral;
+    color: rgb(236,82,66);
     width: 20%;
     height: 20%;
-    padding: 2rem 1.7rem;
+    padding:0.2em 1.7em;
     font-weight: bold;
     z-index: 30;
   }
@@ -360,7 +377,7 @@ z-index: -5;
     position: relative;
     height: auto;
     padding:0;
-    margin-left: 16rem;
+    margin-left: 14rem;
   }
 
   .nav-list {
@@ -368,16 +385,16 @@ z-index: -5;
     flex-direction: row;
     justify-content:space-between;
     align-items:center;
-    color: coral;
+    color: rgb(236,82,66);
    
   }
 
   a {
-    color:coral;
+    color: rgb(236,82,66);
   }
 
   .campaign {
-    border: 2px solid coral;
+    border: 2px solid rgb(236,82,66);
   }
 
   .black {
@@ -385,7 +402,7 @@ z-index: -5;
   }
 
   .presentation {
-    padding: 15rem 8rem;
+    padding: 10rem 8rem;
   }
 
   .presentation-title {
@@ -424,6 +441,16 @@ margin:1em;
 .program-item-title {
 margin-bottom: 1em ;
 }
+
+.past-summit-project {
+  display: flex;
+  flex-direction: column;
+}
+
+.past-project-bgr {
+  width:90vw;
+  height:100%;
+}
  .speekers {
   /* display:grid;
   grid-template-columns: 1fr 1fr;
@@ -451,24 +478,59 @@ margin-bottom: 1em ;
 }
 
 .partners-names {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
  }
 
- .partners-namess {
-  width: 60px;
-  height: 60px;
-  list-style-type: none;
-
-}
 /* .partner-names {
   width: 60px;
   height: 60px;
   list-style-type: none;
  } */
- .partners-names {
-  width: 60px;
-  height: 60px;
-  list-style-type: none;
+ .footer-page {
+   width: 100%;
+   background:white;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   padding:1em ;
+ }
+
+ .footer-pages {
+  width: 100%;
+  background:rgb(76, 75, 82);
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:1em ;
+ }
+
+ .container {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:1em ;
+  width:40%;
+ }
+
+ .footer-details {
+  font-size:12px;
+ }
+
+ .footers-details {
+  font-size:12px;
+  color: white;
+ }
+
+ .footer-logo {
+   font-size:30px;
+   color: rgb(236,82,66);
+   text-align: center;
+ }
+
+ .footer-logos {
+  font-size:30px;
+  color: white;
+  text-align: center;
  }
 }

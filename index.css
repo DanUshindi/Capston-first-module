@@ -13,7 +13,7 @@ body {
 .section-one-title {
   padding: 1rem 1rem;
   font-size:40px;
-  color:coral;
+  color:rgb(236,82,66);
   font-family: "Lato", sans-serif;
 }
 
@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   width: 100vw;
   height: 60vh;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
   
 .past-summit-project {
@@ -69,7 +69,7 @@ body {
 
 .past-summit-title {
   text-align: center;
-  color: coral;
+  color: rgb(236,82,66);
   padding: 1.5rem;
   text-decoration: underline;
 }
@@ -110,7 +110,7 @@ h4 {
 }
 
 .partners-title {
-  color: coral;
+  color: rgb(236,82,66);
   text-align: center;
   text-decoration: underline;
   padding:1rem 1rem ;
