@@ -33,7 +33,7 @@ background: whitesmoke;
     width: 2.25em;
     height: 4px;
     display: block;
-    background-color: coral;
+    background-color: black;
 }
 
 .hamburger::after {
@@ -68,7 +68,7 @@ background: whitesmoke;
 .active .hamburger::after{
   transition: all 200ms ease-in-out;
   display: block;
-  background-color: coral !important;
+  background-color:white ;
 }
 
 
@@ -85,6 +85,10 @@ background: whitesmoke;
 }
 .presentation {
   padding:5rem 2rem;
+}
+
+.logo-uncc {
+  display: none;
 }
 
 .presentation-title {
@@ -317,4 +321,82 @@ z-index: -5;
   text-decoration:none;
   list-style: none;
   padding: 12px 8px; 
+}
+
+@media(min-width:768px) {
+  .moile-menu-hamburger {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top: 0;
+  }
+
+  .logo-uncc {
+    display:block;
+    color:coral;
+    width: 20%;
+    height: 20%;
+    padding: 2rem 1.7rem;
+    font-weight: bold;
+    z-index: 30;
+  }
+
+  .nav {
+    display:block;
+    background: transparent;
+    position: relative;
+    height: auto;
+    padding: 1rem;
+    margin-left: 16rem;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    color: coral;
+   
+  }
+
+  a {
+    color:coral;
+  }
+
+  .campaign {
+    padding: 0.2rem;
+    border: 2px solid coral;
+  }
+
+  .black {
+    color: black;
+  }
+
+  .presentation {
+    padding: 15rem 8rem;
+  }
+
+  .presentation-title {
+    margin-right: 9rem;
+  }
+
+  .presentation-description {
+    margin-right: 9rem;
+    
+  }
+
+.main-program-section ul {
+  display: flex;
+  flex-direction:row;
+}
+  
+.main-program-section ul li {
+  display: flex;
+  flex-direction:column;
+
+}
 }

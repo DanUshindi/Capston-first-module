@@ -10,4 +10,5 @@ hamburger.addEventListener('click', toggle);
 
 menu.addEventListener('mouseup', () => {
   menu.classList.remove('active');
+  hamburger.classList.remove('active');
 });
