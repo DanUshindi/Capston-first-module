@@ -94,7 +94,7 @@ background: whitesmoke;
 .presentation-title {
   padding: 2rem 0;
   font-size: 58px;
-  color: rgba(244,144,116, 0.5);
+  color: rgb(255 117 78 / 50%);
   background: url(./assets/branches-2178684__340.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -140,6 +140,7 @@ a {
 .program-item {
   display: flex;
   flex-direction: row;
+  width: 100%;
   align-items: center;
   padding: 14px 20px;
  

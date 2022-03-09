@@ -24,9 +24,6 @@ body {
   padding: 1rem 1rem;
 }
 
-a {
-  color: rgb(127, 208, 214);
-}
 
 .logo-climat {
   display: flex;
@@ -34,14 +31,21 @@ a {
   align-items: center;
 }
 
+.climat-logo-detail {
+  padding: 1em;
+  color:rgb(179, 43, 43);
+}
+
 .past-summit {
   width: 100%;
+  height: 90%;
   padding:2rem 1rem; 
 }
   
 .past-summit-project {
   align-items: center;
-  width:100%;
+  width:90vw;
+  height:90vh;
 }
 
 .past-summit-title {
@@ -53,28 +57,6 @@ a {
 
 .past-summit-detail {
   text-align: center;
-}
-
-.project1 {
-  background: url(/assets/branches-2178684__340.jpg) violet;
-  background-blend-mode: multiply;
-  background-size:contain;
-  background-repeat: no-repeat;
-  width: 16.4rem;
-  height:11rem;
-  margin:2rem auto;
-  position:relative;
-}
-
-.project2 {
-  background: url(/assets/00270-1-pépinières-de-plantes.jpg) violet;
-  background-blend-mode: multiply;
-  background-size:contain;
-  background-repeat: no-repeat;
-  width: 14rem;
-  height: 10.5rem;
-  margin:2rem auto;
-  position:relative;
 }
 
 h4 {
@@ -106,4 +88,15 @@ h4 {
   text-align: center;
   text-decoration: underline;
   padding:1rem 1rem ;
+}
+@media (min-width: 768px) {
+  .past-summit-project {
+    display: flex;
+    width:100vw;
+    height:90%;
+  }
+
+  .project1 {
+    flex:1;
+  }
 }
