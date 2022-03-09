@@ -36,6 +36,7 @@ a {
 
 .past-summit {
   width: 100%;
+  padding:2rem 1rem; 
 }
   
 .past-summit-project {
@@ -43,10 +44,47 @@ a {
   width:100%;
 }
 
+.past-summit-title {
+  text-align: center;
+  color: coral;
+  padding: 1.5rem;
+  text-decoration: underline;
+}
+
+.past-summit-detail {
+  text-align: center;
+}
+
 .project1 {
-  background: url(/assets/branches-2178684__340.jpg);
+  background: url(/assets/branches-2178684__340.jpg) violet;
+  background-blend-mode: multiply;
   background-size:contain;
   background-repeat: no-repeat;
-  width: 65%;
-  height:60%;
+  width: 16.4rem;
+  height:11rem;
+  margin:2rem auto;
+  position:relative;
+}
+
+.project2 {
+  background: url(/assets/00270-1-pépinières-de-plantes.jpg) violet;
+  background-blend-mode: multiply;
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 14rem;
+  height: 10.5rem;
+  margin:2rem auto;
+  position:relative;
+}
+
+h4 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: beige;
+}
+
+.partners-section {
+  background-color: #2e3139; 
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23080709' fill-opacity='0.9'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
