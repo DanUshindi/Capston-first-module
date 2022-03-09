@@ -4,16 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d5bbd31ce1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
   <header class="header" >
-    <button class="moile-menu-hamburger toggle">
-      <span class="hamburger-block"></span>
+    <button class="moile-menu-hamburger">
+      <span class="hamburger"></span>
     </button>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Program</a></li>
+        <li class="nav-item"><a href="#">Join</a></li>
+        <li class="nav-item"><a href="/partners.html">Partners</a></li>
+        <li class="nav-item"><a href="#">News</a></li>
+      </ul>
+    </nav>
   </header>
   <section class="presentation" id="presentation" >
-    <h1 class="presentation-title">Outcomes of the Glasgow Climate Change Conference</h1>
+    <h1 class="presentation-title">Glasgow Climate Change Conference</h1>
     <p class="presentation-description">Nations took a range 
         of decisions in the collective 
         effort to limit global temperature rise to 1.5 degrees. Click on the buttons below 
@@ -26,27 +38,36 @@
     <h2 class="main-program-title">Main program</h2>
     <ul class="program-list">
       <li class="program-item">
-        <i class="fas fa-book"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icone" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        </svg>
         <h3 class="program-item-title">Lecture</h3>
         <p class="program-item-detail">Listen to the speakers from various 
           countries on how climat impacts life quality.
         </p>
       </li>
       <li class="program-item">
-        <i class="fas fa-shuttle-space"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icone" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+        </svg>
           <h3 class="program-item-title">Mission</h3>
           <p class="program-item-detail">UN studies solutions
             how to promote and help African countries to plan their green spaces.
       </li>
       <li class="program-item">
-        <i class="fas fa-list-check"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 icone" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd" />
+          <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+        </svg>
         <h3 class="program-item-title">Work</h3>
         <p class="program-item-detail">In 2030 we want to eradicate all sources
           climat's pollution in our continents 
         </p>
       </li>
       <li class="program-item">
-        <i class="fas fa-bullseye"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icone" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+        </svg>
         <h3 class="program-item-title">Goal</h3>
         <p class="program-item-detail">
           The building of a sustainable development
@@ -54,7 +75,9 @@
         </p>
       </li>
       <li class="program-item">
-        <i class="fas fa-comments"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icone" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+        </svg>
         <h3 class="program-item-title">Forum</h3>
         <p class="program-item-detail">
           Have the time to share your 
@@ -65,31 +88,80 @@
     <a href="#presentation" class="footer-main-program">See all the program</a>
   </section>
   <section class="speekers-section">
-    <h2 class="speekers-section-title"></h2>
+    <h2 class="speekers-section-title">Featured speakers</h2>
     <ul class="speekers">
-      <li class="speekers-item">
-        <div class="speeker-behind"></div>
+      <li class="speekers-item ">
+        <div class="container one">
+          <div class="speeker-behind"></div>
+        </div>
+        <div class="speeker-info">
+          <h3 class="name">Tessa Khan</h3>
+          <p class="titre"> Environmental lawyer </p>
+          <p class="speeker-detail">Khan cofounded the Climate Litigation Network </p>
+        </div>
       </li>
-      <li class="speekers-item"></li>
-      <li class="speekers-item hidden">
-        <div class="speeker-behind"></div>
+      <li class="speekers-item ">
+        <div class="container two">
+          <div class="speeker-behind"></div>
+        </div>
+        <div class="speeker-info">
+          <h3 class="name">Rhiana Gunn</h3>
+          <p class="titre">An author </p>
+          <p class="speeker-detail">Climate Policy Director at the Roosevelt Institute  </p>
+        </div>
       </li>
       <li class="speekers-item hidden">
-        <div class="speeker-behind"></div>
+        <div class="container three">
+          <div class="speeker-behind"></div>
+        </div>
+        <div class="speeker-info">
+          <h3 class="name">Emmanuel Macron</h3>
+          <p class="titre">President of France</p>
+          <p class="speeker-detail">France mobilizes nearly 7 billion dollars to adaptation the climate.</p>
+        </div>
+      </li>
+      <li class="speekers-item hidden ">
+        <div class="container four">
+          <div class="speeker-behind"></div>
+        </div>
+        <div class="speeker-info">
+          <h3 class="name">António Guterres</h3>
+          <p class="titre">General secretary</p>
+          <p class="speeker-detail">he fights the destruction of the climate 
+            through sanctions to ensure a future for the next generation
+          </p>
+        </div>
+      </li>
+      <li class="speekers-item ">
+        <div class="container five">
+          <div class="speeker-behind"></div>
+        </div>
+        <div class="speeker-info">
+          <h3 class="name">William Cro</h3>
+          <p class="titre">Member of British Acadeny</p>
+          <p class="speeker-detail">Renowned environmental historian</p>
+        </div>
       </li>
       <li class="speekers-item hidden">
-        <div class="speeker-behind"></div>
-      </li>
-      <li class="speekers-item hidden">
-        <div class="speeker-behind"></div>
+        <div class="container  six">
+          <div class="speeker-behind"></div>
+        </div>
+        <div class="speeker-info">
+          <h3 class="name">Ali Bongo</h3>
+          <p class="titre">President of Gabon</p>
+          <p class="speeker-detail">Autor of "Leaders at Cop26 must incentivise protecting forests like the Congo Basin"</p>
+        </div>
       </li>
     </ul>
     <div class="footer-speekers">
       <button class="btn">
         <span class="show-more">More</span>
-        <i class="fa-solid fa-angle-down"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 icone" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
       </button>
     </div>
   </section>
+  <script src="index.js"></script>
 </body>
 </html>

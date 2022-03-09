@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;600&display=swap');
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.section-one {
+  padding:5rem 2rem;
+}
+
+.section-one-title {
+  padding: 1rem 1rem;
+  font-size:40px;
+  color:coral;
+  font-family: "Lato", sans-serif;
+}
+
+.uncc {
+  width:200px;
+  height:150px;
+}
+
+.contact-glascow {
+  padding: 1rem 1rem;
+}
+
+a {
+  color: rgb(127, 208, 214);
+}
+
+.logo-climat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-summit {
+  width: 100%;
+}
+  
+.past-summit-project {
+  align-items: center;
+  width:100%;
+}
+
+.project1 {
+  background: url(/assets/branches-2178684__340.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 65%;
+  height:60%;
+}
