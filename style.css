@@ -410,6 +410,7 @@ z-index: -5;
   }
 
   .presentation-description {
+    width:60%;
     margin-right: 9rem;
     
   }
