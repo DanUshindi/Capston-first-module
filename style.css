@@ -455,12 +455,20 @@ margin-bottom: 1em ;
   height: 60px;
  }
 
-}
-.partner-names {
+ .partners-namess {
   width: 60px;
   height: 60px;
- }
+  list-style-type: none;
+
+}
+/* .partner-names {
+  width: 60px;
+  height: 60px;
+  list-style-type: none;
+ } */
  .partners-names {
   width: 60px;
   height: 60px;
+  list-style-type: none;
  }
+}
