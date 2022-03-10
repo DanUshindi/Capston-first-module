@@ -17,6 +17,12 @@ To describe what he did as project and who to contact him.
 
 [Live Demo Link](https://danushindi.github.io/portfolio/)
 
+## Screenshots
+![App_view](./assets/rhuana-150x150.jpg)
+
+## Loom video
+
+[Live link](https://www.loom.com/share/970a3dfa54274677b1880043c173187c)
 
 ## Getting Started
 
