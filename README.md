@@ -15,7 +15,7 @@ To describe what he did as project and who to contact him.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://danushindi.github.io/portfolio/)
+[Live Demo Link]( https://danushindi.github.io/Capston-first-module/)
 
 ## Screenshots
 ![App_view](./assets/rhuana-150x150.jpg)

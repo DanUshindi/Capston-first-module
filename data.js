@@ -33,7 +33,6 @@ const speekersIntervenant = [{
   job: 'Autor of "Leaders at Cop26 must incentivise protecting forests like the Congo Basin"',
 }];
 
-// const partnersList = [];
 const mainProjects = document.querySelector('.speekers');
 mainProjects.innerHTML += speekersIntervenant.map((project, index) => {
   let card = `<li class="speekers-item">

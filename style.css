@@ -85,11 +85,6 @@ background: whitesmoke;
   z-index: 100;
 }
 
-/* .border-bottom {
-  color:rgb(236,82,66);
-  width:10%;
-} */
-
 .moile-menu-hamburger {
   border: none;
   padding: 25px 18px;
@@ -175,11 +170,6 @@ a {
   gap:1rem;
  
 }
-
-/* .program-item-detail {
-  width: 70%;
-  text-align: center;
-} */
 
 .icone {
   height: 40px;
@@ -599,35 +589,10 @@ margin:1em;
   -o-transition: 1s;
 }
 
-/* .expand .hidden {
-  margin-top: 20px;
-  justify-content:center;
-  padding:2em;
-  display: flex;
-  transition:1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-} */
-
-
-
  .speekers {
-  /* display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap:2rem;
-  padding:2rem 4rem; */
   display: flex;
   flex-wrap: wrap;
  }
-
- /* .hidden {
-  display: flex;
-  flex-direction: row;
-  margin-bottom:1rem;
-} */
 
 .logo-climat {
   background:white;
@@ -674,11 +639,6 @@ margin:1em;
   height: 40px;
  }
 
-/* .partner-names {
-  width: 60px;
-  height: 60px;
-  list-style-type: none;
- } */
  .footer-page {
    width: 100%;
    background:white;
