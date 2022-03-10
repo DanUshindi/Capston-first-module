@@ -6,91 +6,94 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 .section-one {
-  padding:5rem 2rem;
+  padding: 5rem 2rem;
 }
 
 .section-one-title {
   padding: 4rem 1rem;
-  font-size:40px;
-  color:rgb(236,82,66);
+  font-size: 40px;
+  color: rgb(236, 82, 66);
   font-family: "Lato", sans-serif;
   width: 70%;
 }
 
 .uncc {
-  width:200px;
-  height:150px;
+  width: 200px;
+  height: 150px;
 }
 
 .contact-glascow {
   padding: 2rem 1rem;
 }
 
-
 .logo-climat {
-  padding-bottom:3rem;
+  padding-bottom: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .logo-climat-detail {
-  text-align:center;
-  width:70%;
-  padding:1rem 0;
+  text-align: center;
+  width: 70%;
+  padding: 1rem 0;
 }
+
 .climat-logo-detail {
   padding: 1em;
-  color:rgb(179, 43, 43);
+  color: rgb(179, 43, 43);
 }
 
 .past-summit {
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100vw;
   height: 60vh;
   margin-bottom: 2rem;
 }
-  
+
 .past-summit-project {
   display: flex;
   align-items: center;
-  width:100vw;
-  height:100vh;
-  padding:1rem;
-  gap:1rem;
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .past-project-bgr {
-  flex:1;
-  width:50vw;
-  height:100%;
-  background:url(/assets/BlackForest-Germany-GettyImages-147180370.jpg)rgb(179, 43, 43,0.5);
+  flex: 1;
+  width: 50vw;
+  height: 100%;
+  background: url(/assets/BlackForest-Germany-GettyImages-147180370.jpg) rgb(179, 43, 43, 0.5);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  align-items:center;
-  cursor:pointer;
-  transition:0.3s;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
 }
+
 .past-project-bgr:hover {
   transform: scale(1.04);
 }
 
 .past-project-bgr + .past-project-bgr {
-  background: url(/assets/1321_cc-vs-gw-vs-wx-768px.jpg)rgb(179, 43, 43,0.5);
+  background: url(/assets/1321_cc-vs-gw-vs-wx-768px.jpg) rgb(179, 43, 43, 0.5);
 }
 
 .past-project-title {
   color: white;
 }
+
 .past-summit-title {
   text-align: center;
-  color: rgb(236,82,66);
+  color: rgb(236, 82, 66);
   padding: 1.5rem;
   text-decoration: underline;
   text-transform: uppercase;
@@ -109,16 +112,16 @@ h4 {
 }
 
 .partners-section {
-  background-color: #2e3139; 
+  background-color: #2e3139;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23080709' fill-opacity='0.9'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  height:20%;
+  height: 20%;
   padding: 1rem 1.5rem;
 }
 
 .partners-sections {
-  background-color: #2e3139; 
+  background-color: #2e3139;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23080709' fill-opacity='0.9'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  height:30%;
+  height: 30%;
   padding: 1rem 1.5rem;
 }
 
@@ -127,18 +130,19 @@ h4 {
   align-items: center;
   justify-content: space-around;
 }
+
 .partners {
-  width:6rem;
-  height:5rem;
+  width: 6rem;
+  height: 5rem;
 }
 
 .partners-title {
-  color: rgb(236,82,66);
+  color: rgb(236, 82, 66);
   text-align: center;
   text-decoration: underline;
-  padding:1rem 1rem ;
+  padding: 1rem 1rem;
 }
 
 .logo-climat-title {
-  color:rgb(236,82,66);
+  color: rgb(236, 82, 66);
 }
