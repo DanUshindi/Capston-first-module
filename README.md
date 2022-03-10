@@ -22,7 +22,7 @@ To describe what he did as project and who to contact him.
 
 ## Loom video
 
-[Live link](https://www.loom.com/share/970a3dfa54274677b1880043c173187c)
+[Live link](https://www.loom.com/share/70edf55ad0614e02a3eab13148f6ab3c)
 
 ## Getting Started
 
