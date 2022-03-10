@@ -1,3 +1,5 @@
+const showMore = document.querySelector('.show-more');
+const speakersSection = document.querySelector('.speekers');
 const speekersIntervenant = [{
   name: 'Tessa khan',
   picture: 'one',
@@ -32,13 +34,40 @@ const speekersIntervenant = [{
 }];
 
 const mainProjects = document.querySelector('.speekers');
-mainProjects.innerHTML += speekersIntervenant.map((project) => (`<li class="speekers-item speeker1">
-                                                                    <div class= ${project.picture}>
-                                                                      <div class="speeker-behind"></div>
-                                                                    </div>
-                                                                    <div class="speeker-info">
-                                                                      <h3 class="name">${project.name}</h3>
-                                                                      <p class="titre">${project.titre}</p>
-                                                                      <p class="speeker-detail">${project.job}</p>
-                                                                    </div>
-                                                                    </li>`));
+mainProjects.innerHTML += speekersIntervenant.map((project, index) => {
+  let card = `<li class="speekers-item">
+  <div class= '${project.picture}'>
+    <div class="speeker-behind"></div>
+  </div>
+  <div class="speeker-info">
+    <h3 class="name">${project.name}</h3>
+    <p class="titre">${project.titre}</p>
+    <p class="speeker-detail">${project.job}</p>
+  </div>
+  </li>`;
+  if (index >= 2) {
+    card = `<li class="hidden">
+    <div class= '${project.picture}'>
+      <div class="speeker-behind"></div>
+    </div>
+    <div class="speeker-info">
+      <h3 class="name">${project.name}</h3>
+      <p class="titre">${project.titre}</p>
+      <p class="speeker-detail">${project.job}</p>
+    </div>
+    </li>`;
+  }
+  return card;
+});
+
+showMore.addEventListener('click', (e) => {
+  e.preventDefault();
+  speakersSection.classList.toggle('expand');
+  if (speakersSection.classList.contains('expand')) {
+    document.querySelector('.expand-arrow').classList.remove('fa-chevron-down');
+    document.querySelector('.expand-arrow').classList.add('fa-chevron-up');
+  } else {
+    document.querySelector('.expand-arrow').classList.add('fa-chevron-down');
+    document.querySelector('.expand-arrow').classList.remove('fa-chevron-up');
+  }
+});
