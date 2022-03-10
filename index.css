@@ -35,6 +35,11 @@ body {
   align-items: center;
 }
 
+.logo-climat-detail {
+  text-align:center;
+  width:70%;
+  padding:1rem 0;
+}
 .climat-logo-detail {
   padding: 1em;
   color:rgb(179, 43, 43);
@@ -132,4 +137,8 @@ h4 {
   text-align: center;
   text-decoration: underline;
   padding:1rem 1rem ;
+}
+
+.logo-climat-title {
+  color:rgb(236,82,66);
 }

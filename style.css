@@ -85,6 +85,11 @@ background: whitesmoke;
   z-index: 100;
 }
 
+/* .border-bottom {
+  color:rgb(236,82,66);
+  width:10%;
+} */
+
 .moile-menu-hamburger {
   border: none;
   padding: 25px 18px;
@@ -591,6 +596,8 @@ margin-bottom: 1em ;
   -o-transition: 1s;
 } */
 
+
+
  .speekers {
   /* display:grid;
   grid-template-columns: 1fr 1fr;
@@ -607,6 +614,10 @@ margin-bottom: 1em ;
   margin-bottom:1rem;
 } */
 
+.logo-climat {
+  background:white;
+  padding-top:3rem;
+}
 .speekers-item {
   width:49%;
 }
