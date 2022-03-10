@@ -33,10 +33,11 @@ const speekersIntervenant = [{
   job: 'Autor of "Leaders at Cop26 must incentivise protecting forests like the Congo Basin"',
 }];
 
+// const partnersList = [];
 const mainProjects = document.querySelector('.speekers');
 mainProjects.innerHTML += speekersIntervenant.map((project, index) => {
   let card = `<li class="speekers-item">
-  <div class= '${project.picture}'>
+  <div class= "${project.picture}">
     <div class="speeker-behind"></div>
   </div>
   <div class="speeker-info">
@@ -64,10 +65,8 @@ showMore.addEventListener('click', (e) => {
   e.preventDefault();
   speakersSection.classList.toggle('expand');
   if (speakersSection.classList.contains('expand')) {
-    document.querySelector('.expand-arrow').classList.remove('fa-chevron-down');
-    document.querySelector('.expand-arrow').classList.add('fa-chevron-up');
+    document.querySelector('.show-more').innerHTML = 'LESS';
   } else {
-    document.querySelector('.expand-arrow').classList.add('fa-chevron-down');
-    document.querySelector('.expand-arrow').classList.remove('fa-chevron-up');
+    document.querySelector('.show-more').innerHTML = 'MORE';
   }
 });

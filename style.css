@@ -94,7 +94,7 @@ background: whitesmoke;
   border: none;
   padding: 25px 18px;
   background: transparent;
-  position: absolute;
+  position: fixed;
   z-index: 30;
 }
 .presentation {
@@ -123,7 +123,7 @@ background: whitesmoke;
 .presentation-title {
   padding: 2rem 0;
   font-size: 58px;
-  color: rgb(236,82,66,0.5);
+  color: rgba(233, 46, 25, 0.5);
   background: url(./assets/branches-2178684__340.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -176,10 +176,10 @@ a {
  
 }
 
-.program-item-detail {
-  width: 100%;
+/* .program-item-detail {
+  width: 70%;
   text-align: center;
-}
+} */
 
 .icone {
   height: 40px;
@@ -188,9 +188,9 @@ a {
 }
 
 .program-item-title {
-  margin: 0.2rem auto;
-  font-size: 27px;
+  font-size: 10px;
   color: rgb(236,82,66);
+  width: 20%;
 }
 
 .footer-main-program {
@@ -280,7 +280,7 @@ z-index: -5;
 .speekers-item {
   display: flex;
   flex-direction: row;
-  margin-bottom:1rem;
+  margin-bottom:0.5rem;
 }
 
 
@@ -339,9 +339,13 @@ z-index: -5;
   padding: 6px 9px
 }
 
+.program-item-detail-text {
+  text-align: left;
+}
+
 .nav {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -519,14 +523,16 @@ z-index: -5;
 
 .program-list {
   display: flex;
-  flex-direction:row;
-  gap:1rem;
-  width:90%;
-  height:20em;
+  flex-direction: row;
+  gap: 1rem;
+  width: 90%;
+  height: 20em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
   
 .program-item {
-  height: 90%;
+  height: 98%;
   flex:1;
   flex-direction: column;
   background:rgba(255, 255, 255, 0.15);
@@ -541,12 +547,21 @@ z-index: -5;
   transform: scale(1.009);
  }
 
+ .program-item-detail-text {
+   text-align:center;
+  width:100%;
+ }
+
  .icone {
 margin:1em;
 }
 
 .program-item-title {
-margin-bottom: 1em ;
+  font-size: 17px;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
 }
 
 .past-summit-project {
@@ -619,7 +634,8 @@ margin-bottom: 1em ;
   padding-top:3rem;
 }
 .speekers-item {
-  width:49%;
+  width:47%;
+  padding: 0 1rem;
 }
 
 .partner-section {
