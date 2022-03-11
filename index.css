@@ -5,6 +5,7 @@ body {
   font-family: "Lato", sans-serif;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .section-one {
@@ -75,9 +76,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  position: relative;
   align-items: center;
   cursor: pointer;
   transition: 0.3s;
+  background: rgb(236, 82, 66);
+}
+
+.past-project-bgr:hover {
+  opacity: 0.5;
+  transform: scale(1.02);
 }
 
 .past-project-title {
