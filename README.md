@@ -15,10 +15,10 @@ To describe what he did as project and who to contact him.
 
 ## Live Demo (if available)
 
-[Live Demo Link]( https://danushindi.github.io/Capston-first-module/)
+[Live Demo Link](https://danushindi.github.io/Capston-first-module/)
 
 ## Screenshots
-![App_view](./assets/rhuana-150x150.jpg)
+![App_view](./assets/screencapture-127-0-0-1-5500-2022-03-10-17_33_56.png)
 
 ## Loom video
 
@@ -59,6 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Micro-verse
+- Cindy Shin in Behance.
 
 ## 📝 License
 
