@@ -399,11 +399,26 @@ a {
 }
 
 .footer-pages {
-  display: none;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
 }
 
 .footer-page {
-  display: none;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
 }
 
 .partner-section {
