@@ -9,6 +9,9 @@ body {
 
 .section-one {
   padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-one-title {
@@ -17,6 +20,7 @@ body {
   color: rgb(236, 82, 66);
   font-family: "Lato", sans-serif;
   width: 70%;
+  align-self: center;
 }
 
 .uncc {
@@ -50,12 +54,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
   margin-bottom: 2rem;
 }
 
 .past-summit-project {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100vw;
   height: 100vh;
@@ -65,12 +70,13 @@ body {
 
 .past-project-bgr {
   flex: 1;
-  width: 50vw;
-  height: 100%;
-  background: url(/assets/BlackForest-Germany-GettyImages-147180370.jpg) rgb(179, 43, 43, 0.5);
+  width: 59vw;
+  height: 50%;
+
+  /* background: url(/assets/BlackForest-Germany-GettyImages-147180370.jpg) rgb(179, 43, 43, 0.5);
   background-blend-mode: multiply;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -79,16 +85,16 @@ body {
   transition: 0.3s;
 }
 
-.past-project-bgr:hover {
+/* .past-project-bgr:hover {
   transform: scale(1.04);
-}
-
-.past-project-bgr + .past-project-bgr {
-  background: url(/assets/1321_cc-vs-gw-vs-wx-768px.jpg) rgb(179, 43, 43, 0.5);
-}
+} */
 
 .past-project-title {
   color: white;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
 }
 
 .past-summit-title {
@@ -145,4 +151,23 @@ h4 {
 
 .logo-climat-title {
   color: rgb(236, 82, 66);
+}
+
+.past-project-bgr-image {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(236, 82, 66, 0.7);
+}
+
+@media (min-width: 768px) {
+  .past-summit-project {
+    display: flex;
+    flex-direction: row;
+  }
 }
