@@ -211,6 +211,7 @@ a {
   row-gap: 1em;
   width: 90%;
   margin: 2em auto;
+  list-style-type: none;
 }
 
 .speeeker-behind {
@@ -362,7 +363,7 @@ a {
   line-height: 2.5;
   font-size: 1.75em;
   transition: all 300ms ease-in-out;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .active html {
@@ -428,8 +429,8 @@ a {
   }
 
   .campaign {
-    outline: 2px solid rgb(236, 82, 66);
-    outline-offset: 3px;
+    border: 2px solid rgb(236, 82, 66);
+    padding: 1px;
   }
 
   .section-nav-item {
@@ -684,5 +685,9 @@ a {
     font-size: 30px;
     color: rgb(236, 82, 66);
     text-align: center;
+  }
+
+  .not-displayed {
+    display: none;
   }
 }

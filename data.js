@@ -20,7 +20,7 @@ const speekersIntervenant = [{
   picture: '/assets/antonio.png',
   titre: 'General secretary of UN',
   job: `he fights the destruction of the climate 
-  through sanctions to ensure a future for the next generation`,
+  to ensure a future for the next generation`,
 }, {
   name: 'William Cro',
   picture: './assets/prof.png',
@@ -36,7 +36,8 @@ const speekersIntervenant = [{
 const mainProjects = document.querySelector('.speekers');
 mainProjects.innerHTML = '';
 speekersIntervenant.forEach((project, index) => {
-  let card = `<li class="speekers-item">
+  let card = `<li>
+  <article class="speekers-item">
   <div class= "one">
     <img class="peekers-picrure" src="${project.picture}">
   </div>
@@ -45,9 +46,11 @@ speekersIntervenant.forEach((project, index) => {
     <p class="titre">${project.titre}</p>
     <p class="speeker-detail">${project.job}</p>
   </div>
-  </li>`;
+  </li>
+  </article>`;
   if (index >= 2) {
-    card = `<li class="hidden">
+    card = `<li>
+    <article class="hidden">
     <div class= "one">
       <img class="peekers-picrure" src="${project.picture}"/>
     </div>
@@ -56,7 +59,8 @@ speekersIntervenant.forEach((project, index) => {
       <p class="titre">${project.titre}</p>
       <p class="speeker-detail">${project.job}</p>
     </div>
-    </li>`;
+    </li>
+    </article>`;
   }
   mainProjects.innerHTML += card;
 });
