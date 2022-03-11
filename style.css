@@ -11,7 +11,7 @@
 }
 
 body {
-  background: white;
+  background: rgb(248, 248, 248);
 }
 
 .header {
@@ -124,7 +124,7 @@ body {
 }
 
 .presentation-description {
-  border: 4px solid gainsboro;
+  border: 4px solid white;
   padding: 1rem;
   align-self: center;
 }
