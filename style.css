@@ -232,7 +232,7 @@ a {
 .one {
   height: 100%;
   display: flex;
-  background: url(/assets/pos.jpg);
+  background: url(./assets/pos.jpg);
   background-size: 140%;
   background-repeat: no-repeat;
   padding-top: 0.5rem;
